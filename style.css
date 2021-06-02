@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* Navigation styles */
+.head {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 150px;
+}
+.head ul {
+  display: flex;
+  list-style: none;
+}
+.head ul li {
+  padding-right: 50px;
+  cursor: pointer;
+}
+.head ul li p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.head h4 {
+  font-size: 20px;
+  cursor: pointer;
+}
+/* End of Navigation Styles */
+
+/* Get section styles */
+.get {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px 150px;
+}
+.get__inner {
+  width: 50%;
+}
+.get__inner h3 {
+  font-size: 32px;
+  line-height: 2.5rem;
+}
+.get__inner p {
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+.get__inner button {
+  background-color: black;
+  border: none;
+  color: grey;
+  padding: 10px 30px;
+}
+.image img {
+  object-fit: contain;
+  width: 30rem;
+  border-radius: 20px;
+}
+
+/* About us styles */
+.about {
+  text-align: center;
+  padding: 70px 0;
+}
+.about p {
+  margin-top: 15px;
+  font-size: 15px;
+}
+/* End of About us Styles */
+.notes {
+  display: flex;
+  padding: 40px 150px;
+  align-items: center;
+}
+.notes__image {
+  width: 50%;
+  /* padding-left: 100px; */
+}
+img {
+  width: 70%;
+  border-radius: 40px;
+}
+.notes button {
+  background-color: black;
+  border: none;
+  color: grey;
+  padding: 10px 30px;
+}
+.notes__inner {
+    width: 50%;
+}
+.notes__inner p {
+  margin: 10px 0;
+}
+button {
+  cursor: pointer;
+}
